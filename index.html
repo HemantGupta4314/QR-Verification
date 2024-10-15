@@ -163,7 +163,7 @@
         <div id="qr-reader"></div>
         <div id="qr-result"></div>
         <form id="myForm" method="POST"
-            action="https://script.google.com/macros/s/AKfycbxAy9ebRJHAQgirEXAnpfkmxim2J7oiU_3u467Y-boYlW5xhu16TjfAw3db-xriefUXgQ/exec">
+            action="https://script.google.com/macros/s/AKfycbx_qmiV-7S7fH_bO7bc1o3bQOJSV3SQynU6dTeQQ4yowH9RaitplhQdGi7Uk3bWUXffow/exec">
             <input id="serial_number" background_colour="red" name="serial_number" required>
             <button id="verify_btn"  type="submit" onclick="button_press()">Verify</button>
         </form>
@@ -228,7 +228,7 @@
 
         document.getElementById('myForm').addEventListener('submit', function (event) {
             event.preventDefault();
-            fetch('https://script.google.com/macros/s/AKfycbxAy9ebRJHAQgirEXAnpfkmxim2J7oiU_3u467Y-boYlW5xhu16TjfAw3db-xriefUXgQ/exec', {
+            fetch('https://script.google.com/macros/s/AKfycbx_qmiV-7S7fH_bO7bc1o3bQOJSV3SQynU6dTeQQ4yowH9RaitplhQdGi7Uk3bWUXffow/exec', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/x-www-form-urlencoded'
